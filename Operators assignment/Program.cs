@@ -59,8 +59,8 @@ class Program
         Employee emp1 = new Employee
         {
             Id = 101,
-            FirstName = "Kawthar",
-            LastName = "AlHallak"
+            FirstName = "Batool",
+            LastName = "Mikha"
         };
 
         // 🏗️ Creating the second employee — same Id to test equality logic
@@ -68,7 +68,7 @@ class Program
         {
             Id = 101,
             FirstName = "Alicia",
-            LastName = "Johns"
+            LastName = "Mikha"
         };
 
         // 🧪 Testing equality using our custom overloaded operator
